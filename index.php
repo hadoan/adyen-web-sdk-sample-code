@@ -91,7 +91,7 @@ date_default_timezone_set("Europe/Amsterdam");
                 method: 'POST',// jQuery > 1.9
                 type: 'POST', //jQuery < 1.9
                 success: function (data) {
-                    $("#checkout").html(data.resultCode);
+                    $("#checkout").html(data.resultCode+"<br/>"+data.refusalReason);
                 },
                 error: function () {
                     if (window.console && console.log) {
