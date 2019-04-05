@@ -12,10 +12,12 @@
   "repository": "https://github.com/Adyen/adyen-checkout-js-sdk-php-example",
   "env": {
     "MERCHANT_ACCOUNT": {
-      "description": "Your merchant account"
+      "description": "Your merchant account",
+      "value" : "KonbiniVendingAutomationPteLtdCOM"
     },
     "CHECKOUT_API_KEY": {
-      "description": "Your checkout API key"
+      "description": "Your checkout API key",
+      "value" : "AQE5hmfuXNWTK0Qc+iSbnWo6ruqSfo5DCZpEX0RD0nemn3JCkclGBMNNEjOk50xVLh3i7IY8Fyx1uh8cEMFdWw2+5HzctViMSCJMYAc=-yuKjjus7wTyPRQQ3jfUklm+YjlkAbgEhlZRQoF1wy+Q=-TW6ndMSPImYIHYa3"
     },
     "PROTOCOL": {
       "description" : "Which protocol to add to the origin var / url generator function",
